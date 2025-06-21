@@ -22,14 +22,6 @@ This project is a real-time ASL (American Sign Language) alphabet recognition sy
 - **NumPy & Math** (processing support)
 
 
-## 📂 Structure
----
-.
-├── cropped_data/             # Preprocessed dataset of hand signs (A–Z)
-├── model.tflite              # Trained TFLite classification model
-├── labels.txt                # One label per line (A to Z)
-├── tflite_testing.py         # Real-time detection and prediction script
-
 
 
 
