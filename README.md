@@ -1,10 +1,8 @@
 # Sign-Language-Detection-using-OpenCV
 
-#  Real-Time ASL Alphabet Recognition
-
 This project is a real-time ASL (American Sign Language) alphabet recognition system that detects hand signs using a webcam and predicts the corresponding English letter (A–Z). It leverages MediaPipe-based hand detection with a TensorFlow Lite classification model for efficient and lightweight inference.
 
----
+
 
 ## Features
 
@@ -14,7 +12,6 @@ This project is a real-time ASL (American Sign Language) alphabet recognition sy
 - Clean preprocessing pipeline using hand cropping and resizing
 - Live prediction display with OpenCV overlays
 
----
 
 ## Tech Stack
 
@@ -24,11 +21,9 @@ This project is a real-time ASL (American Sign Language) alphabet recognition sy
 - **TensorFlow Lite** (model inference)
 - **NumPy & Math** (processing support)
 
----
 
 ## 📂 Structure
 
-```
 .
 ├── cropped_data/             # Preprocessed dataset of hand signs (A–Z)
 ├── model.tflite              # Trained TFLite classification model
