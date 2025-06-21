@@ -23,7 +23,7 @@ This project is a real-time ASL (American Sign Language) alphabet recognition sy
 
 
 ## 📂 Structure
-
+---
 .
 ├── cropped_data/             # Preprocessed dataset of hand signs (A–Z)
 ├── model.tflite              # Trained TFLite classification model
